@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio - Jotage Dev</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Jhandel Dev</h1>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#educacion">Educación</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- INICIO -->
+  <section id="inicio" class="hero">
+    <div class="container hero-grid">
+      <div class="intro-text">
+        <h2>¡Hola! Soy <span class="accent">Jhandel Zavaleta</span> 👋</h2>
+        <p class="mini">Estudiante de Ingeniería de Sistemas en la Universidad de Lima. Me gusta superarme constantemente y busco prácticas. Actualmente llevo cursos de especialización con interés en análisis de malware y desarrollo de software.</p>
+        <div class="hero-ctas">
+          <a href="#proyectos" class="btn">Ver proyectos</a>
+          <a href="#contacto" class="btn ghost">Contacto</a>
+        </div>
+      </div>
+
+      <div class="intro-img">
+        <!-- Cambia src por tu foto (por ejemplo: img/jotage.jpg) -->
+        <img src="https://via.placeholder.com/300x300.png?text=Tu+Foto" alt="Foto de Jotage" id="profile-photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="section">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <div class="about-grid">
+        <div class="about-text" id="about-text">
+          <!-- El texto se inyecta desde script.js (lorem 300-500 chars) -->
+        </div>
+        <div class="about-extra">
+          <img src="https://via.placeholder.com/220x140.png?text=Proyecto+o+Avatar" alt="Imagen extra">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section">
+    <div class="container">
+      <h2>Proyectos destacados</h2>
+
+      <div class="carousel" id="carousel">
+        <button class="carousel-btn prev" id="prev" aria-label="Anterior">&#10094;</button>
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="track">
+            <!-- 1..5: proyectos con link. Cambia hrefs y textos -->
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=1" alt="Proyecto 1">
+              <div class="slide-caption">
+                <h3>Proyecto 1</h3>
+                <p>Breve descripción del proyecto 1.</p>
+                <a class="project-link" href="https://github.com/Jotage-2/proyecto1" target="_blank">Ver en GitHub</a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=2" alt="Proyecto 2">
+              <div class="slide-caption">
+                <h3>Proyecto 2</h3>
+                <p>Breve descripción del proyecto 2.</p>
+                <a class="project-link" href="https://github.com/Jotage-2/proyecto2" target="_blank">Ver en GitHub</a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=3" alt="Proyecto 3">
+              <div class="slide-caption">
+                <h3>Proyecto 3</h3>
+                <p>Breve descripción del proyecto 3.</p>
+                <a class="project-link" href="https://github.com/Jotage-2/proyecto3" target="_blank">Ver en GitHub</a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=4" alt="Proyecto 4">
+              <div class="slide-caption">
+                <h3>Proyecto 4</h3>
+                <p>Breve descripción del proyecto 4.</p>
+                <a class="project-link" href="https://github.com/Jotage-2/proyecto4" target="_blank">Ver en GitHub</a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=5" alt="Proyecto 5">
+              <div class="slide-caption">
+                <h3>Proyecto 5</h3>
+                <p>Breve descripción del proyecto 5.</p>
+                <a class="project-link" href="https://github.com/Jotage-2/proyecto5" target="_blank">Ver en GitHub</a>
+              </div>
+            </div>
+
+            <!-- 6..10: imágenes de ejemplo (sin link) -->
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=6" alt="Imagen ejemplo 6">
+              <div class="slide-caption">
+                <h3>Galería 6</h3>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=7" alt="Imagen ejemplo 7">
+              <div class="slide-caption">
+                <h3>Galería 7</h3>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=8" alt="Imagen ejemplo 8">
+              <div class="slide-caption">
+                <h3>Galería 8</h3>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=9" alt="Imagen ejemplo 9">
+              <div class="slide-caption">
+                <h3>Galería 9</h3>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="https://picsum.photos/800/420?random=10" alt="Imagen ejemplo 10">
+              <div class="slide-caption">
+                <h3>Galería 10</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-btn next" id="next" aria-label="Siguiente">&#10095;</button>
+      </div>
+
+      <div class="project-links">
+        <a href="https://github.com/Jotage-2/proyecto1" target="_blank">Proyecto 1</a>
+        <a href="https://github.com/Jotage-2/proyecto2" target="_blank">Proyecto 2</a>
+        <a href="https://github.com/Jotage-2/proyecto3" target="_blank">Proyecto 3</a>
+        <a href="https://github.com/Jotage-2/proyecto4" target="_blank">Proyecto 4</a>
+        <a href="https://github.com/Jotage-2/proyecto5" target="_blank">Proyecto 5</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section id="experiencia" class="section">
+    <div class="container">
+      <h2>Experiencia laboral</h2>
+      <div class="exp-grid">
+        <div class="exp-card">
+          <h3>Empresa A</h3>
+          <span class="muted">Analista Jr. — 2022–2023</span>
+          <p>Responsable de soporte técnico y asistencia en proyectos internos. Manejo básico de mantenimiento y documentación de procesos.</p>
+        </div>
+        <div class="exp-card">
+          <h3>Empresa B</h3>
+          <span class="muted">Asistente Técnico — 2020–2021</span>
+          <p>Soporte a usuarios, diagnóstico de fallas de software y colaboración en pequeñas implementaciones. Trabajo en equipo y entrega de reportes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCACIÓN -->
+  <section id="educacion" class="section">
+    <div class="container">
+      <h2>Educación & Eventos</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="time">Título</div>
+          <div class="desc">
+            <h3>Título conjunto - Universidad Complutense de Madrid & Universidad de Lima</h3>
+            <p>Programa conjunto otorgando título en colaboración internacional.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">Congresos</div>
+          <div class="desc">
+            <h3>2 Congresos internacionales</h3>
+            <p>Participación en dos congresos internacionales de Ingeniería de Sistemas.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">Formación</div>
+          <div class="desc">
+            <h3>Certus</h3>
+            <p>Estudios técnicos complementarios en Certus.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="time">Actividad</div>
+          <div class="desc">
+            <h3>Núcleo de Atención Fiscal</h3>
+            <p>Miembro del Núcleo de Atención Fiscal de la Universidad de Lima.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Mantenimiento de software</h3>
+          <p>Soporte, actualización y optimización de aplicaciones.</p>
+        </div>
+        <div class="service-card">
+          <h3>Análisis de malware</h3>
+          <p>Investigación básica y detección de comportamientos sospechosos.</p>
+        </div>
+        <div class="service-card">
+          <h3>Servicio técnico</h3>
+          <p>Diagnóstico y reparación de problemas de software y hardware.</p>
+        </div>
+        <div class="service-card">
+          <h3>Consultoría tecnológica</h3>
+          <p>Asesoría para pequeños proyectos y mejoras de procesos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <span>Java</span>
+          <div class="bar"><div class="fill" data-value="80"></div></div>
+        </div>
+        <div class="skill">
+          <span>Python</span>
+          <div class="bar"><div class="fill" data-value="75"></div></div>
+        </div>
+        <div class="skill">
+          <span>HTML</span>
+          <div class="bar"><div class="fill" data-value="90"></div></div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="bar"><div class="fill" data-value="85"></div></div>
+        </div>
+        <div class="skill">
+          <span>Trabajo en equipo</span>
+          <div class="bar"><div class="fill" data-value="88"></div></div>
+        </div>
+        <div class="skill">
+          <span>Matemáticas rápidas</span>
+          <div class="bar"><div class="fill" data-value="82"></div></div>
+        </div>
+        <div class="skill">
+          <span>Liderazgo</span>
+          <div class="bar"><div class="fill" data-value="80"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section contact-section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Teléfono</h3>
+          <p>+51 900 000 000 (ejemplo)</p>
+        </div>
+        <div class="contact-card">
+          <h3>LinkedIn</h3>
+          <p><a href="https://linkedin.com/in/tu-perfil" target="_blank">linkedin.com/in/tu-perfil</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>GitHub</h3>
+          <p><a href="https://github.com/Jotage-2" target="_blank">github.com/Jotage-2</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>GitLab</h3>
+          <p><a href="https://gitlab.com/tu-usuario" target="_blank">gitlab.com/tu-usuario</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Jotage Dev. Sitio creado para tarea.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
