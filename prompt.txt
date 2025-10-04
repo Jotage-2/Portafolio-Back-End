@@ -1,0 +1,162 @@
+Prompt:
+
+Quiero que me crees un portafolio web profesional, moderno y responsive, usando HTML, CSS y JavaScript, con un diseño oscuro con tonos morados y azules, similar a un estilo tecnológico.
+
+El sitio debe ser publicable en GitHub Pages y debe tener las siguientes características:
+
+ Estructura general
+
+Un menú superior con mi nombre ("Jotage Dev") y enlaces a las secciones.
+
+Un menú hamburguesa que se active cuando el ancho de pantalla sea pequeño (responsive).
+
+Un carrusel de 10 proyectos, de los cuales:
+
+5 mostrarán mis proyectos reales (con espacio para poner enlaces).
+
+5 serán solo imágenes de ejemplo (sin enlaces).
+
+Las imágenes del carrusel deben desplazarse automáticamente y también con botones prev/next.
+
+ Sección “Inicio”
+
+A la izquierda: una pequeña descripción mía, y a la derecha mi foto (puedes poner una imagen de ejemplo).
+
+La descripción debe decir algo como:
+
+"Soy estudiante de Ingeniería de Sistemas en la Universidad de Lima. Me gusta superarme constantemente y actualmente estoy buscando prácticas. Estoy llevando cursos de especialización y tengo interés en el análisis de malware y desarrollo de software."
+
+ Sección “Sobre mí”
+
+Un texto descriptivo (entre 300 y 500 caracteres) que usaré para contar sobre mí.
+
+Usa lorem ipsum como texto de ejemplo (yo luego lo reemplazaré).
+
+Aplica un diseño atractivo con tipografía moderna, espacio para un párrafo y una pequeña imagen opcional.
+
+ Sección “Experiencia laboral”
+
+Dos bloques que muestren mis dos trabajos anteriores (pueden ser ejemplos falsos).
+
+Cada bloque debe incluir:
+
+Nombre de la empresa
+
+Cargo ocupado
+
+Breve descripción (2–3 líneas)
+
+Año aproximado
+
+Sección “Educación”
+
+Debe incluir lo siguiente:
+
+Título a nombre de la Universidad Complutense de Madrid en conjunto con la Universidad de Lima.
+
+Participación en 2 congresos internacionales de Ingeniería de Sistemas.
+
+Estudios en Certus.
+
+Miembro del Núcleo de Atención Fiscal de la Universidad de Lima.
+
+Cada punto debe mostrarse con un diseño elegante tipo “línea de tiempo” o tarjetas separadas.
+
+ Sección “Servicios”
+
+Lista de servicios que puedo ofrecer, con íconos o tarjetas:
+
+Mantenimiento de software
+
+Análisis de malware
+
+Servicio técnico
+
+Otros servicios relacionados con tecnología
+
+ Sección “Skills”
+
+Mostrar mis habilidades en una cuadrícula o barras de progreso:
+
+Java
+
+Python
+
+HTML
+
+JavaScript
+
+Trabajo en equipo
+
+Matemáticas rápidas
+
+Liderazgo
+
+ Sección “Contacto”
+
+Mostrar mi información de contacto al final de la página:
+
+Número de teléfono (usa un número de ejemplo)
+
+LinkedIn
+
+GitHub
+
+GitLab
+
+Usa íconos o botones con estilo moderno.
+
+ Estilo y diseño
+
+Colores principales: morado (#a855f7, #c084fc) y azul oscuro (#0f172a, #1e1b4b).
+
+Tipografía moderna (por ejemplo, “Poppins” o “Inter”).
+
+Fondo oscuro, con sombras suaves y transiciones.
+
+Carrusel animado con movimiento suave.
+
+Todo debe ser completamente responsive (adaptarse bien a móviles y pantallas grandes).
+
+ Funcionalidad JS
+
+Carrusel funcional (automático y con botones).
+
+Menú hamburguesa para dispositivos móviles.
+
+Transiciones suaves al hacer clic en el menú (scroll suave).
+
+ Organización
+
+Archivos:
+
+index.html
+
+style.css
+
+script.js
+
+Usa nombres de clases claros y comentarios para entender el código.
+
+El resultado debe verse profesional y moderno, listo para mostrar como un portafolio personal real.
+
+ Resumen del prompt:
+Es una versión completa y realista de un portafolio profesional, con todo lo que pediste:
+
+Diseño oscuro morado
+
+Descripción personal
+
+Carrusel con 10 proyectos
+
+Experiencia laboral
+
+Educación
+
+Servicios
+
+Skills
+
+Contacto
+
+Responsive con menú hamburguesa

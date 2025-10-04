@@ -124,3 +124,31 @@ function animateSkills(){
     setTimeout(()=> el.style.width = `${val}%`, 400);
   });
 }
+
+// Efecto suave con JS para los botones y proyectos
+document.querySelectorAll('button, .btn, .carousel-item').forEach(el => {
+  el.addEventListener('mouseover', () => {
+    el.style.transition = 'transform 0.2s ease';
+    el.style.transform = 'scale(1.08)';
+  });
+
+  el.addEventListener('mouseout', () => {
+    el.style.transform = 'scale(1)';
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll('button, .btn, .carousel-item, .project-links a');
+
+  elements.forEach(el => {
+    el.addEventListener('mouseover', () => {
+      el.style.transition = 'transform 0.2s ease';
+      el.style.transform = 'scale(1.08)';
+    });
+
+    el.addEventListener('mouseout', () => {
+      el.style.transform = 'scale(1)';
+    });
+  });
+});
+

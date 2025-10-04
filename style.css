@@ -186,3 +186,76 @@ body{
   .intro-img img{width:150px;height:150px}
   .slide img{height:220px}
 }
+/* ====== EFECTO DE ZOOM E ILUMINACIÓN ====== */
+
+/* Para los botones */
+button, 
+.btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(165, 94, 234, 0.7); /* Luz morada */
+}
+
+/* Para los proyectos del carrusel */
+.carousel-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(165, 94, 234, 0.6); /* Brillo suave morado */
+  cursor: pointer;
+}
+
+/* ====== EFECTO DE ZOOM E ILUMINACIÓN ====== */
+
+/* ====== EFECTO DE ZOOM E ILUMINACIÓN ====== */
+
+/* Botones */
+button, 
+.btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(165, 94, 234, 0.7);
+  background-color: rgba(165, 94, 234, 0.9);
+  color: #fff;
+}
+
+/* Carrusel */
+.carousel-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(165, 94, 234, 0.6);
+  cursor: pointer;
+}
+
+/* Enlaces de proyectos */
+.project-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(165, 94, 234, 0.3);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.project-links a:hover {
+  transform: scale(1.08);
+  background-color: rgba(165, 94, 234, 0.8);
+  box-shadow: 0 0 15px rgba(165, 94, 234, 0.6);
+  cursor: pointer;
+}
+
