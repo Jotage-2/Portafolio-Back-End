@@ -10,7 +10,7 @@
 /* === ABOUT TEXT (lorem 300-500 chars) ===
    Si quieres cambiarlo manualmente, edítalo aquí.
 */
-const aboutText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
+const aboutText = "Soy estudiante de Ingeniería de Sistemas en la Universidad de Lima. Me apasiona la tecnología, el análisis de software y aprender cosas nuevas cada día. Busco seguir creciendo tanto a nivel profesional como personal, aplicando mis conocimientos en proyectos que representen un reto. Me considero una persona proactiva, con facilidad para trabajar en equipo y con muchas ganas de seguir mejorando.";
 
 /* Inyecta el texto en la sección 'Sobre mí' */
 document.addEventListener('DOMContentLoaded', () => {
